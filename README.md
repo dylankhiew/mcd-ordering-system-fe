@@ -112,7 +112,7 @@ npm run test:coverage
 ---
 
 ### Thoughts and Improvement
-- This is honestly my first test which allows me to user vibe coding, I actually had fun trying this GitHub Copilot (thanks company), and am impressed by its skill and power damn.
+- This is honestly my first test which allows me to try out vibe coding, I actually had fun trying this GitHub Copilot (thanks company), and am impressed by its skill and power damn.
 - Although its vibe coded, I ensure that test cases are convered where it's necessary like context, components and whatnot as these are good for when humans like us change things here and there and might cause issues in the existing components or context, so that helps in that sense.
 - I also specifically asked it to ensure its all neatly arranged in folders as it will be more organised and easier for the eyes.  
 ---
