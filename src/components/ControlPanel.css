@@ -29,12 +29,66 @@
   font-weight: 700;
 }
 
+/* Glass-morphism button styles */
+.control-panel .ant-btn {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.control-panel .ant-btn-default {
+  background: rgba(255, 255, 255, 0.6) !important;
+}
+
+.dark .control-panel .ant-btn-default {
+  background: rgba(40, 40, 40, 0.6) !important;
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.control-panel .ant-btn-primary {
+  background: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+
+.control-panel .ant-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.dark .control-panel .ant-btn:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.control-panel .ant-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 @media (max-width: 768px) {
   .control-panel-content {
     flex-direction: column;
+    gap: 20px;
   }
   
   .control-section {
     width: 100%;
+  }
+  
+  /* Make buttons full width on mobile for easier tapping */
+  .control-section .ant-space {
+    width: 100%;
+  }
+  
+  .control-section .ant-btn {
+    flex: 1;
+    min-height: 44px; /* Touch-friendly target */
+  }
+  
+  /* Disable hover transform on mobile */
+  .control-panel .ant-btn:hover {
+    transform: none;
   }
 }

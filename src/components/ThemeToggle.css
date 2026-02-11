@@ -19,11 +19,13 @@
 
 @media (max-width: 768px) {
   .theme-toggle {
-    top: 16px;
-    right: 16px;
+    top: 12px;
+    right: 12px;
+    padding: 6px;
   }
-}
-
-.theme-toggle:hover {
-  transform: scale(1.05);
+  
+  /* Disable hover transform on mobile since it's touch-based */
+  .theme-toggle:hover {
+    transform: none;
+  }
 }

@@ -17,7 +17,7 @@ export const OrderManagementScreen: React.FC = () => {
     <div className="order-management-screen">
       <ThemeToggle />
       <div className="screen-header">
-        <h1 className="screen-title">McDonald's Order Management System</h1>
+        <h1 className="screen-title">McD Killer</h1>
         <p className="screen-subtitle">
           Manage orders and bots efficiently with priority queue processing
         </p>

@@ -1,8 +1,8 @@
-# McDonald's Order Management System - Implementation Guide
+# McD Killer - Implementation Guide
 
 ## Overview
 
-This is a comprehensive front-end implementation of the McDonald's Order Management System take-home assignment. The application features priority queue processing, dynamic bot management, and a modern glass-morphism UI with light/dark mode support.
+This is a comprehensive front-end implementation of the McD Killer take-home assignment. The application features priority queue processing, dynamic bot management, and a modern glass-morphism UI with light/dark mode support.
 
 ## ✅ Requirements Completion
 

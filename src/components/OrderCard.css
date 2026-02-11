@@ -30,3 +30,13 @@
   display: flex;
   justify-content: flex-end;
 }
+
+@media (max-width: 768px) {
+  .order-card {
+    margin-bottom: 10px;
+  }
+  
+  .order-id {
+    font-size: 16px;
+  }
+}

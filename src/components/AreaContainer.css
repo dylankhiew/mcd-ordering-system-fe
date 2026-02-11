@@ -34,6 +34,26 @@
   padding-right: 8px;
 }
 
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+  .area-container {
+    min-height: 300px;
+  }
+  
+  .area-content {
+    max-height: 350px;
+  }
+  
+  .area-title {
+    font-size: 16px;
+  }
+  
+  .area-count {
+    font-size: 14px;
+    padding: 2px 8px;
+  }
+}
+
 .area-content::-webkit-scrollbar {
   width: 6px;
 }

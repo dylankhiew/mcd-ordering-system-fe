@@ -40,6 +40,7 @@
 @media (max-width: 768px) {
   .order-management-screen {
     padding: 16px;
+    padding-top: 60px; /* Account for fixed theme toggle */
   }
 
   .screen-title {
@@ -48,5 +49,9 @@
 
   .screen-subtitle {
     font-size: 14px;
+  }
+  
+  .screen-header {
+    margin-bottom: 20px;
   }
 }

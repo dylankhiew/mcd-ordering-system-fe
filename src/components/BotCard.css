@@ -47,3 +47,17 @@
   font-size: 12px;
   color: var(--text-secondary);
 }
+
+@media (max-width: 768px) {
+  .bot-card {
+    margin-bottom: 10px;
+  }
+  
+  .bot-icon {
+    font-size: 20px;
+  }
+  
+  .bot-id {
+    font-size: 14px;
+  }
+}
