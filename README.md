@@ -2,6 +2,10 @@
 Welcome to the ordering system of what McD should have been, fast, efficient and coded in 30 mins (minus the planning time). Also its pay to win!
 
 ---
+
+Visit the website here: https://mcd-ordering-system-fe.vercel.app/
+
+---
 ### Features
 Well, since this is a prototype, not much. What we can do is bare minimum, we can:
 
