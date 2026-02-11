@@ -22,6 +22,21 @@
   margin: 0;
 }
 
+/* Empty state styling */
+.order-management-screen .ant-empty-image {
+  opacity: 0.6;
+  transition: all 0.3s ease;
+}
+
+.dark .order-management-screen .ant-empty-image {
+  filter: invert(1) brightness(0.8);
+  opacity: 0.5;
+}
+
+.order-management-screen .ant-empty-description {
+  color: var(--text-secondary);
+}
+
 @media (max-width: 768px) {
   .order-management-screen {
     padding: 16px;
