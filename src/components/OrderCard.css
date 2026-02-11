@@ -1,0 +1,32 @@
+.order-card {
+  margin-bottom: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.order-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px var(--shadow-color);
+}
+
+.order-card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order-id {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.order-status {
+  display: flex;
+  justify-content: flex-end;
+}

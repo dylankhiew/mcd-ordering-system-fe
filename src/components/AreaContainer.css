@@ -1,0 +1,53 @@
+.area-container {
+  height: 100%;
+  min-height: 400px;
+}
+
+.area-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.area-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-color);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.area-count {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--primary-color);
+  background: var(--surface-light);
+  padding: 4px 12px;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+}
+
+.area-content {
+  max-height: 500px;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+.area-content::-webkit-scrollbar {
+  width: 6px;
+}
+
+.area-content::-webkit-scrollbar-track {
+  background: var(--surface-light);
+  border-radius: 3px;
+}
+
+.area-content::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 3px;
+}
+
+.area-content::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary-color);
+}
