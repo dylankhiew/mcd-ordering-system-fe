@@ -66,6 +66,51 @@ Then I asked it to refine on mobile responsiveness, solved some typing issues as
 
 ---
 
+### Installation Steps
+
+<details>
+  <summary>Here (really?)</summary>
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/feedmepos/se-take-home-assignment.git
+   cd se-take-home-assignment
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+   The application will be available at `http://localhost:5173`
+
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
+
+5. **Preview production build**
+   ```bash
+   npm run preview
+   ```
+
+6. **Run tests**
+   ```bash
+   npm test
+   ```
+
+7. **Run tests with coverage**
+```bash
+npm run test:coverage
+```
+</details>
+
+---
+
 ### Thoughts and Improvement
 - This is honestly my first test which allows me to user vibe coding, I actually had fun trying this GitHub Copilot (thanks company), and am impressed by its skill and power damn.
 - Although its vibe coded, I ensure that test cases are convered where it's necessary like context, components and whatnot as these are good for when humans like us change things here and there and might cause issues in the existing components or context, so that helps in that sense.
