@@ -13,7 +13,7 @@ Well, since this is a prototype, not much. What we can do is bare minimum, we ca
 - Remove bots
 - Add new order
 - Add new VIP order
-- Dark/Light Mode (wow)
+- Dark/Light Mode
 ---
 ### Tech Stack
 I decided to go with Vite + TypeScript as Create React App is no longer the viable option. TypeScript for its strict typings and React because I am familiar with based on my React Native experience. React Context for state management, something simple
@@ -69,7 +69,7 @@ Then I asked it to refine on mobile responsiveness, solved some typing issues as
 ### Installation Steps
 
 <details>
-  <summary>Here (really?)</summary>
+  <summary>Here</summary>
 
 1. **Clone the repository**
    ```bash
@@ -117,7 +117,7 @@ npm run test:coverage
 - I also specifically asked it to ensure its all neatly arranged in folders as it will be more organised and easier for the eyes.  
 ---
 
-### Screenshots and Preview (in case yall lazy to run) 
+### Screenshots and Preview
 ---
 
 <img width="700" alt="Screenshot 2026-02-11 at 9 26 04 PM" src="https://github.com/user-attachments/assets/937575f1-f786-4bdc-a542-216f3c72084b" />
